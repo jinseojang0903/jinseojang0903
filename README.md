@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm 장진서 (jinseojang0903)</h1>
-<h3 align="center">[한 줄 소개 — 개발과 데이터에 관심 있는 대학생 개발자입니다]</h3>
+<h1 align="center">Hi, I'm jinseojang0903</h1>
+<h3 align="center">[개발과 데이터에 관심 있는 대학생 개발자]</h3>
 
 ---
 
 ### 🙋 About Me
 
-- 🎓 [명지 대학교/정보통신공학과, 4학년]
+- 🎓 [명지대학교/정보통신공학과, 4학년]
 - 🔭 현재 진행 중인 작업: [영림원소프트랩 K-System 리뉴얼 버전 개발 (동계 현장실습 참여 중)]
 - 🌱 요즘 공부하고 있는 것: [C#/.NET, Blazor, Dapper]
 - 💬 이런 주제로 편하게 이야기해요: [개발, ERP 시스템 등]
@@ -16,15 +16,19 @@
 ### 🛠 Tech Stack
 
 **Languages**
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 **Frameworks & Tools**
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![Blazor](https://img.shields.io/badge/Blazor-5C2D91?style=flat-square&logo=blazor&logoColor=white)
+![Dapper](https://img.shields.io/badge/Dapper-ORM-A31515?style=flat-square)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
 ---
 
@@ -33,7 +37,6 @@
 영림원소프트랩 · 동계 현장실습 · 2026.01 – 2026.02
 - 담당 업무: [예: ERP 화면 개발, SQL 스터디]
 - 사용 기술: [루아 스크립트, JS, C#]
-- 배운 점(한두 줄): [실무에서 느낀 것, 협업 경험 등]
 
 ---
 
@@ -53,12 +56,6 @@
 [못난이 농산물 관련 프로젝트로 보이는데, 어떤 기능을 만들었는지 한두 줄 소개]
 
 `Tech: Node.js, EJS`
-
-<!--
-  나머지 저장소(singing-bot, school-map-project, develop_game)도 대표작이라면 같은 형식으로 추가하거나,
-  README에 다 쓰는 대신 프로필 화면의 "Pin repositories" 기능으로 최대 6개를 고정해두면
-  README 없이도 카드 형태로 자동 노출됩니다.
--->
 
 ---
 
