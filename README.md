@@ -1,5 +1,5 @@
-<h1 align="center">안녕하세요, 장진서입니다 👋</h1>
-<h3 align="center">ERP와 백엔드, 데이터에 관심 있는 개발자</h3>
+<h1 align="center">장진서 👋</h1>
+<h3 align="center">일단 해보고 배우는 백엔드 개발자 · ERP와 데이터에 관심이 많습니다</h3>
 
 ---
 
@@ -29,15 +29,18 @@
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![Blazor](https://img.shields.io/badge/Blazor-5C2D91?style=flat-square&logo=blazor&logoColor=white)
 ![Dapper](https://img.shields.io/badge/Dapper-ORM-A31515?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
 **AI & Tools**
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
@@ -58,19 +61,21 @@
 
 ### 🏆 Projects
 
-#### 🤖 [타고가조](https://github.com/jinseojang0903/【저장소명】) · 양주 미래 AI 공모전
+#### 🚌 [만차예보 · 양주 광역버스 만차 예보 AI](https://github.com/Yangju-AI-11/yangju-bus-forecast) · 팀 탈수있조
 
-> 🥇 양주 미래 AI 공모전 **최우수상** (【2026.10】, 주최: 【양주시 / 뉴팀즈】)
+> 🥇 2026 양주시 미래인재 AI 공모전 **최우수상** (2026년 10월, 주제: 똑똑하고 편리한 양주)
 
-【어떤 문제를 AI로 해결하려 했는지, 핵심 기능 한두 줄 소개】
+광역버스가 **내 정류장에 도착할 때 빈자리가 없을 위험**을 과거 유사 운행의 실제 결과('n회 중 k회')로 예보하고, 도착 마감에 맞는 대안 버스를 비교해 주는 모바일 웹 서비스입니다. 양주시 광역버스 G1300·1306 노선, 덕현초교 정류장, 평일 출근 시간대를 대상으로 실증했습니다.
 
-**맡은 역할: 【백엔드 · 데이터 · 프론트엔드】**
+**맡은 역할: 백엔드 · 데이터 수집기 · 프론트엔드 구성**
 
-- 【주요 기여 1】
-- 【주요 기여 2】
-- 【주요 기여 3】
+- 경기버스정보(GBIS) 공공 API 실시간 수집기 구현 — 양주 광역 12개 노선의 위치·도착 정보를 노선별 독립 작업자가 10~40초 주기로 수집하고, 일일 호출 한도 검사·원본 JSONL 저장·수집 상태 리포트 처리
+- 수집 데이터로 운행편을 재구성하고 '도착 시 0석' 정답 라벨 생성 (엄격·완화 등급, 미확인 사유 분류)
+- FastAPI 기반 예보 스냅샷·정류장 조회·헬스체크 API와 PostgreSQL(Supabase) 테이블 설계
+- React + Vite + TypeScript 모바일 웹 프론트엔드 구성 (조건 입력·예보 결과·근거 부족 화면)
+- 수집기 systemd 서비스 배포(Oracle Cloud ARM), pytest·ruff 기반 테스트·린트 환경 구성
 
-`【Python】` `【사용 기술】`
+`Python` `FastAPI` `PostgreSQL` `Supabase` `React` `Vite` `TypeScript` `GBIS 공공데이터 API` `uv` `systemd`
 
 #### ❄️ [스스로 학습하는 제설 AI 웹](https://github.com/jinseojang0903/CapstoneDesign) · 캡스톤디자인
 
@@ -121,7 +126,7 @@
 
 | 수상 | 수여기관 | 시기 | 내용 |
 | --- | --- | --- | --- |
-| 양주 미래 AI 공모전 **최우수상** | 【양주시 / 기관명】 | 【2026.00】 | 【프로젝트명 한 줄】 |
+| 양주시 미래인재 AI 공모전 **최우수상** | 양주시 | 2026년 10월 | 광역버스 만차 예보 AI "만차예보" (백엔드·데이터 수집·프론트엔드) |
 | IC-PBL 경진대회 | 명지대학교 | 2025년 2학기 | 스스로 학습하는 제설 AI 웹 (팀장) |
 | 창의적 SW프로그램 경진대회 | 명지대학교 | 2025년 2학기 | 농업 커뮤니티 웹 Farmunity |
 | 장애인 인식제고 프로젝트 공모전 | 명지대학교 | 2022년 2학기 | 장애 체험 프로그램 "역지사지" 기획 |
